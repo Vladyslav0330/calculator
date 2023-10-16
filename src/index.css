@@ -58,6 +58,15 @@ body {
   grid-column: 3/5;
 }
 
-.opt{
+.opt {
   background: #f79505;
+}
+
+.screen {
+  font-size: 3em;
+  overflow: hidden; /* Обрезать содержимое, выходящее за пределы контейнера */
+}
+
+.number {
+  white-space: nowrap;
 }
